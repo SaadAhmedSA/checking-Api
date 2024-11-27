@@ -64,7 +64,7 @@ const App = () => {
       
     }
   }
-  const  Edittodo = (id,value)=>{
+  const  Edittodo = (id)=>{
      const username = prompt("Enter Value")
    try {
     axios.put(`http://localhost:3000/api/user/${id}`,{
